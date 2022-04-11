@@ -32,6 +32,7 @@ public class Car {
 
      */
 
+
     public String toString() {
         return "Car{" +
                 "brand='" + brand + '\'' +
@@ -41,10 +42,7 @@ public class Car {
                 ", color='" + color + '\'' +
                 ", miles=" + miles +
                 '}';
-
-
     }
-
 }
   /*
   carTask:
