@@ -10,6 +10,12 @@ public class ParkingLot {
 
         BMW bmw = new BMW("QS",2019,20000,"White",70000);
 
+        System.out.println(toyota);
+        System.out.println(tesla);
+        System.out.println(bmw);
+
+        System.out.println();
+
         toyota.start();
         tesla.start();
         bmw.start();
