@@ -1,4 +1,4 @@
-package day35_Encapsulation.encapsulation;
+package day35_Encapsulation;
 
 public class Circle {
 
