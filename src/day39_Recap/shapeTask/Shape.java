@@ -26,13 +26,22 @@ public class Shape {
     }
 
     public double area(){
-        return 0;
+        return 0; // if implementation is not needed, return method isn't necessary
     }
 
     public double perimeter(){
-        return 0;
+
+        return 0; // if implementation is not needed, return method isn't necessary
     }
 
+    @Override
+    public String toString() {
+        return "Shape{" +
+                "name='" + name + '\'' +
+                ", area='" + area() + '\'' +
+                ", perimeter='" + perimeter() + '\'' +
+                '}';
+    }
 }
 /*
 Shape:

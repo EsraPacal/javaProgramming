@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class ScrumTeam{
 
-    public ProductOwner PO;  // Product Owner == > Custom Class
+    public ProductOwner PO;  // Product Owner data type(not String) == > Custom Class
     public BusinessAnalyst BA;
     public ScrumMaster SM;
 
