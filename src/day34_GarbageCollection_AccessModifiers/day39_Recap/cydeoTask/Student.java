@@ -1,6 +1,6 @@
-package day39_Recap.cydeoTask;
+package day34_GarbageCollection_AccessModifiers.day39_Recap.cydeoTask;
 
-public class Student extends Person {
+public class Student extends Person{
 
    private int studentID;
    private String fieldOfStudy;

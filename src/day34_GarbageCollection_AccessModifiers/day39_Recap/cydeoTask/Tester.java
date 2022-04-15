@@ -1,6 +1,6 @@
-package day39_Recap.cydeoTask;
+package day34_GarbageCollection_AccessModifiers.day39_Recap.cydeoTask;
 
-public class Tester extends Employee {
+public class Tester extends Employee{
 
     public Tester(String name, int age, char gender, int employeeID, String jobTitle, double salary) {
         super(name, age, gender, employeeID, jobTitle, salary);
