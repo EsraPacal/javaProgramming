@@ -17,6 +17,9 @@ public class WarmupTasks {
             domain((email));
 
         }
+
+        System.out.println("------------------------------------------------------");
+
         nameOfMonth(5);
 
     }
