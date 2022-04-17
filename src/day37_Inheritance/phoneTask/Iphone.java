@@ -1,6 +1,7 @@
 package day37_Inheritance.phoneTask;
 
-public class Iphone extends Phone{
+public final class Iphone extends Phone{  // final class Iphone can NEVER be a parent (super) class
+ // if the class is final, we don't need to use final keyword for the variables or methods. from the final class, there is no way to override the instances
 
     public Iphone(String model, String size, double price, String color) {  // I deleted String brand because now it s not an instance
         super("Apple", model, size, price, color);  // all the brands of Iphone is Apple... So, it can be given a value to the brand in this class
