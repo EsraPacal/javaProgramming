@@ -14,7 +14,7 @@ public class StrongPassword {
 
         char[] chars = password.toCharArray();
 
-        for (char each : chars) { // foreachloop is used for array... we can also use regular for loop without using array(foreach)
+        for (char each : chars) { // forEachLoop is used for array... we can also use regular for loop without using array(foreach)
             if(Character.isUpperCase(each)){
                 r2 = true;
             }else if(Character.isLowerCase(each)){
