@@ -15,7 +15,7 @@ public class ThrowKeyword {
 
             throw new InputMismatchException("Age can not be negative: "+ age);  // manually creating an exception
             /*
-            System.err.println("Invalid age");        // previous way ===> exit methodk
+            System.err.println("Invalid age");        // previous way ===> exit methode
             System.exit(1);
 
              */
